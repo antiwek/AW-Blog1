@@ -27,7 +27,20 @@ header ul li {
     list-style: none;
 }
 header a {
-    color: rgba(0, 0, 0, 0.55);
-    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-decoration:rgb(from color r g b);
     padding: 1em;
+}
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#about #my_picture {
+    width: 100%;
+    margin: 1.5rem ;
+    padding: 1em ;
+    display: block;
+    
 }
