@@ -19,6 +19,8 @@ header {
     padding: 0 20px;
     justify-content: space-between;
     background-color: var(--secondary);
+    border: 2px var(--primary) ;
+    border-radius: 10px;
 }
 header ul {
     display: flex;
@@ -36,11 +38,27 @@ header a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-#about #my_picture {
-    width: 100%;
-    margin: 1.5rem ;
-    padding: 1em ;
-    display: block;
     
+}
+
+#about {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    color: white;
+    background: url(zdjęcie\ na\ strone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    border: 2px var(--primary);
+    border-radius: 10px;
+
+}
+#about .subtitle {
+    text-align: justify;
+    display: flex;
+    margin: 0.5em;
+}
+#about h1 {
+    color: rgba(255, 255, 255, 0.917);
 }
