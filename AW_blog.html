@@ -19,7 +19,7 @@
                     <li><a href="#books" class="center-link">Książki</a></li>
                     <li><a href="#movies" class="center-link">Filmy i seriale</a></li>
                     <li><a href="#other" class="center-link">Inne wpisy</a></li>
-                    <li><a href="#contact" class="center-link">Kontakt</a></li>
+                    <li><a href="#email" class="center-link">Kontakt</a></li>
                 </ul>
             </nav>
     </header>
@@ -38,22 +38,22 @@
 <!-- sekcja 2 książki  -->
     <section id="books">
         <div class="container-center">
-            <h2>Jakiś cytat o książkach</h2>
+            <h2><cite>„Książka to najlepszy przyjaciel człowieka, a biblioteka to świątynia jego myśli.” – Cyceron</cite></h2>
             <div class="divider"></div>
             <div class="boxes">
-                <div class="box" id="ZiK">
-                   <h3>Zbrodnia i kara</h3>
-                   <p>opis jakiś tam</p>
+                <div class="box">
+                   <h3>Fiodor Dostojewski - „Zbrodnia i kara”</h3>
+                   <p>opis</p>
                    <div class="button">Zobacz wpis</div>
                 </div>
-                <div class="box" id="SP">
-                    <h3>Georgi Gospodinov - „Schron przeciwczasowy”</h3>
-                    <p>opis coś tam</p>
+                <div class="box">
+                    <h3>Kazuo Ishiguro - „Pogrzebany olbrzym”</h3>
+                    <p>opis</p>
                     <div class="button">Zobacz wpis</div>
                 </div>
-                <div class="box" id="TGL">
+                <div class="box">
                     <h3>Robert Waldinger - „The Good Life and How to Live It”</h3>
-                    <p>opis coś tam</p>
+                    <p>opis</p>
                     <div class="button">Zobacz wpis</div>
                 </div>
 
@@ -64,22 +64,22 @@
 <!-- sekcja 3 filmy i seriale -->
     <section id="movies">
         <div class="container-center">
-            <h2>Jakiś cytat o filmach/serialach</h2>
+            <h2><cite>„When people ask me if I went to film school, I tell them, 'No, I went to films” - Quentin Tarantino</cite></h2>
             <div class="divider"></div>
             <div class="boxes">
                     <div class="box">
                     <h3>Michael Mann - „Ferrari”</h3>
-                    <p>opis coś tam</p>
+                    <p>opis</p>
                     <div class="button">Zobacz wpis</div>
                     </div>
                     <div class="box">
                         <h3>Joon-ho Bong - „Parasite”</h3>
-                        <p>opis coś tam</p>
+                        <p>opis</p>
                         <div class="button">Zobacz wpis</div>
                     </div>
                     <div class="box">
                         <h3>Tom Hanks, Steven Spielberg - „Band of Brothers”</h3>
-                        <p>opis coś tam</p>
+                        <p>opis</p>
                         <div class="button">Zobacz wpis</div>
                     </div>
                 </div>
@@ -89,26 +89,44 @@
 <!-- sekcja 4 inne wpisy -->
     <section id="other">
         <div class="container-center">
-            <h2>Coś o moich własnych wpisach</h2>
+            <h2>Mieszanka wybuchowa - zbiór autorskich wpisów</h2>
+            <div class="divider"></div>
             <div class="boxes">
                 <div class="box">
                     <h3>Współczesny Babilon</h3>
                     <p>opis mojego eseju</p>
-                    <div class="button"><a href="">Zobacz wpis</a></div>
+                    <div class="button"><a href=" https://docs.google.com/document/d/1Tb0MzydKIJUWQMtbmzkHfDh75ziZdCdnbagMKCFYcgE/edit#heading=h.qg43n5115u1o" target="_blank">Zobacz wpis</a></div>
                 </div>
-
             </div>
          </div>
 
     </section>
-<!-- footer (kontakt) -->
+<!-- sekcja 5 (kontakt) -->
+    <section id="email">
+        <div class="container-center">
+            <h2>Zapraszam do kontaktu</h2>
+            <div class="divider"></div>
+            <form id="contactForm" action="https://formspree.io/f/meqyggrz" method="post">
+                <label for="name">Imię i Nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Twoja wiadomość:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Wyślij Wiadomość</button>
+            </form>
+            
+
+           
+        </div>
+    </section>
+    <!-- sekcja 6 -> footer -->
     <footer>
         <div class="container-center">
-            <h2>Zapraszamy do kontaktu</h2>
-            <div id="contact">
-
-                <p>&copy; 2023 Antoni Wałejko. Wszelkie prawa zastrzeżone</p>
-            </div>
+          <div class="prawa"><p>&copy; 2024 Antoni Wałejko. Wszelkie prawa zastrzeżone</p></div>
         </div>
     </footer>
     <script src="script.js"></script>
